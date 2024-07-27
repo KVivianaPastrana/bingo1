@@ -1,0 +1,53 @@
+
+        .col-color-0 { background-color: #FFC0CB; } 
+        .col-color-1 { background-color: #ADD8E6; } 
+        .col-color-2 { background-color: #90EE90; } 
+        .col-color-3 { background-color: #FFFFE0; } 
+        .col-color-4 { background-color: #FFB6C1; } 
+        .highlight { background-color: pink; }
+
+    
+            .bingo-table th, .bingo-table td {
+            width: 60px;
+            height: 60px;
+            font-size: 1.5rem;
+            text-align: center;
+            vertical-align: middle;
+        }
+        .bingo-table th {
+            background-color: #343a40;
+            color: white;
+        }
+        /* Estilos personalizados para las tablas de bingo */
+table.bingo {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+
+table.bingo th,
+table.bingo td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+table.bingo th {
+    background-color: #343a40;
+    color: white;
+}
+
+.table-responsive {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.table-responsive .table-container {
+    flex: 1 1 calc(33.333% - 20px);
+    margin: 10px;
+    min-width: 300px; /* Para asegurar un tamaño mínimo en pantallas pequeñas */
+}
